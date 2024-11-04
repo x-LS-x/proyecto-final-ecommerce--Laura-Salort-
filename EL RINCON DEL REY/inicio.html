@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    
+    <title>El Rincon del Rey</title>
+</head>
+<body>
+    <header>
+        <img src="./imagenes/logo.PNG" alt="calaveraylibros">
+        <h1>El Rincón del Rey</h1>       
+    </header>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li> 
+            <li><a href="#">Nuesta Localización</a></li> 
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+        <video width="600" controls> <source src="./videos/video.mp4" type="video/mp4"></video>
+        </section>
+        
+        <section>
+            <p>Reseñas</p>
+
+        </section>
+
+        <section>  
+        <form action="https://formspree.io/f/xzzbeoyd" method="POST"> 
+            <label for="nombre">Nombre:</label> 
+            <input type="text" id="nombre" name="nombre" required> 
+            
+            <label for="email">Correo electrónico:</label> 
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label> 
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea> 
+            <button type="submit">Enviar</button>
+        </form>
+        </section>  
+    </main>
+    <footer>
+        <p><p>© 2024 El Rincon del Rey. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

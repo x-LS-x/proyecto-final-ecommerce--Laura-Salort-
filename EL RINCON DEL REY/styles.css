@@ -1,0 +1,67 @@
+header {
+  background-color: #333; /* Cambia este color a tu preferencia */
+  font-family: 'Arial', sans-serif; /* Cambia el estilo de fuente según tu elección */
+  color: white; /* Color del texto */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Centra el texto */
+  header {
+  font-family: 'Roboto', sans-serif; /* Fuente para el header */
+}
+
+main {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Cambia los colores del degradado a tu preferencia */
+  padding: 20px; /* Ajusta el padding para mantener la coherencia */
+  margin: 20px; /* Ajusta el margen para mantener la coherencia */
+  color: white; /* Color del texto */
+  font-family: 'Open Sans', sans-serif; /* Asegúrate de mantener la coherencia de la fuente */
+}
+
+
+}
+
+footer {
+  background-color: #333; /* Cambia este color a tu preferencia */
+  font-family: 'Arial', sans-serif; /* Cambia el estilo de fuente según tu elección */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espaciado interno */
+  text-align: center; /* Centra el texto */
+  position: fixed; /* Fija el footer en la parte inferior */
+  bottom: 0;
+  width: 100%;
+}
+
+
+.nav-list{
+  list-style: none;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+nav {
+  background-color: #333; /* Cambia el color de fondo del menú */
+  padding: 10px; /* Espaciado interno */
+}
+
+nav ul {
+  list-style-type: none; /* Quita los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline; /* Para que los elementos de la lista aparezcan en línea */
+  margin-right: 10px; /* Espacio entre los elementos */
+}
+
+nav ul li a {
+  color: white; /* Color de los enlaces */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  padding: 8px 16px; /* Espaciado interno de los enlaces */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+nav ul li a:hover {
+  background-color: #575757; /* Cambia el fondo del enlace al pasar el ratón */
+  color: #fff; /* Cambia el color del texto del enlace al pasar el ratón */
+}
